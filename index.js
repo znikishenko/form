@@ -1,5 +1,5 @@
 
-import  saveFormData  from './form.js';
+import  {saveFormData}  from './form.js';
 let form = document.getElementById('feedback-form')
 form.addEventListener('submit', (event) => {
     event.preventDefault();
